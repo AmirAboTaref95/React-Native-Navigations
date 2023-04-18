@@ -6,7 +6,7 @@ const Stack = createNativeStackNavigator();
 
 const StackNavigations = () => {
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <Stack.Navigator screenOptions={{ headerShown: true }}>
       <Stack.Group>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Second-Screen" component={Second} />
